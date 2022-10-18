@@ -6,8 +6,8 @@ def frequencies(items):
     for i in range(0, len(items)):
         items[i] = str(items[i])
 
-        for i in items:
-            frequencies[i] = items.count(i)
+    for i in items:
+        frequencies[i] = items.count(i)
     return frequencies
 
 
